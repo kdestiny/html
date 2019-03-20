@@ -1,0 +1,290 @@
+/* ----------------------------------
+CSS file for Discuz! x3.2 By 新视界
+(C) http://addon.discuz.com/?@79344.developer
+Design QQ: 2413248487
+---------------------------------- */
+
+.h2o_user_wrap .message_btn { background: none !important; }
+
+.h2o_bar_htn2 { position: absolute; top: 44px; right: -50px; cursor: pointer; }
+
+.h2o_f_nav { width: 848px; height: 50px; background: #f9f9f9;border: 1px solid #E7E8EB;border-bottom: none;overflow: hidden; }
+.h2o_f_nav .circle-nav { position: relative; width: 848px; height: 50px; margin: 0 auto; }
+.h2o_f_nav .circle-nav .tab-list {position: absolute;width: 830px;left: 0;bottom: 0;margin: 0 10px;}
+.h2o_f_nav .circle-nav .tab-list .tab-item { float: left; height: 38px; margin-right: 20px; line-height: 38px; }
+.h2o_f_nav .circle-nav .tab-list .tab-item a { display: block; height: 38px; line-height: 38px; padding: 0 10px; color: #6f6f6f; font-size: 16px; text-align: center; }
+.h2o_f_nav .circle-nav .tab-list .tab-item-current { background: #fff; }
+.h2o_f_nav .circle-nav .tab-list .tab-item-current a { color: #444; margin: -2px 0 0 -1px; border-top: 2px solid #1499f8; text-shadow: none; }
+
+.pop-lists-box .h_pop { background: #fff; border: none; }
+.pop-lists-box .h_pop a { height: 30px; line-height: 30px; padding: 2px 6px 2px 17px; margin: 0 -4px; border-bottom: 1px solid #fff; font-size: 14px; color: #444; }
+
+.h2o_register a.qq_a { background: #f0f0f0 url(../images/qq_icoh.png) no-repeat 4px 3px; }
+.h2o_register a.weixin_a { background: #f0f0f0 url(../images/weixin_icoh.png) no-repeat 4px 5px;}
+.h2o_register a.qq_a:hover { background: #6EA8DF url(../images/qq_ico.png) no-repeat 4px 3px; }
+.h2o_register a.weixin_a:hover { background: #97BE19 url(../images/weixin_ico.png) no-repeat 4px 5px; }
+
+
+/*左侧版块信息*/
+/*版块图标*/
+.h2o-circle-info {
+    width: 308px;
+    margin-bottom: 15px;
+    padding: 0 0 8px 0;
+    background-color: #fff;
+    border: 1px solid #E7E8EB;
+}
+.h2o-circle-info .circle-avatar {
+    display: block;
+    position: relative;
+    width: 310px;
+    height: 84px;
+	margin: 0 -1px;
+    
+}
+.h2o-circle-info .circle-avatar-left {
+}
+.h2o-circle-info .circle-avatar-right {
+    text-align: center;
+    padding: 80px 0 5px;
+}
+.h2o-circle-info .circle-avatar img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -25px;
+    left: 50%;
+    margin-left: -50px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+/*版块名称*/
+.h2o-circle-info .circle-name { display: block;  padding: 16px 0 0; font-size: 21px; color: #333; }
+.h2o-circle-info .circle-name h1, .h2o-circle-info .circle-name span { display: block; }
+
+/*版块统计*/
+.h2o-circle-info .circle-data {
+    width: 290px;
+    margin: 8px auto 0;
+    text-align: center;
+}
+.h2o-circle-info .circle-data span {
+    max-width: 76px;
+    list-style: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.h2o-circle-info .circle-data span a {  height: 27px; color: #999; font-size: 14px; overflow: hidden; }
+.h2o-circle-info .circle-data span em { color: #999; font-size: 14px; }
+.h2o-circle-info .circle-data span.split {
+    width: 1px;
+    border-left: 1px solid #E7E8EB;
+    height: 17px;
+    margin: 4px 5px 0;
+}
+
+/*版块公告*/
+.h2o-circle-info .circle-bbs { margin: 90px 12px 0; }
+.h2o-circle-info .circle-bbs h3 { font-size: 16px; color: #333; padding-bottom: 6px; font-weight: 700; }
+.h2o-circle-info .circle-bbs p { color: #999; line-height: 22px; word-break: break-all; }
+
+/*版块操作*/
+.h2o-bankuai-cz { margin: 10px auto; text-align: center; }
+.h2o-bankuai-cz a {
+    display: inline-block;
+    background: #f0f0f0;
+    width: 87px;
+    margin: 0 4px;
+    padding: 10px 0;
+    color: #555;
+    font-size: 13px;
+    
+    text-align: center;
+    overflow: hidden;
+}
+.h2o-bankuai-cz a.h2o-sendpm {
+    background: #9077C2;
+}
+.h2o-bankuai-cz a:hover { opacity: 0.8; }
+
+/*版主*/
+.h2o-adminlist {
+    width: 308px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border: 1px solid #E7E8EB;
+    
+    
+    overflow: hidden;
+}
+.h2o-adminlist .member-item {
+    float: left;
+    margin: 15px 0 0 20px;
+    padding-bottom: 15px;
+    width: 270px;
+    height: 45px;
+}
+.h2o-adminlist h3 {     
+    margin: 0;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #E7E8EB;
+    background: #fff;
+    text-indent: 15px;
+    font-size: 16px;
+    color: #757575;
+	font-weight: 400;
+    overflow: hidden; }
+.h2o-adminlist .member-item .member-avatar img { float: left; width: 45px; height: 45px; border-radius: 50%; }
+.h2o-adminlist .member-item .member-avatar span { display: inline-block; width: 70px; height: 24px; overflow: hidden; margin: 2px 0 0 12px; font-size: 14px; color: #333; }
+.h2o-adminlist .member-item .info { width: 120px; margin-left: 56px; color: #999; }
+.h2o-adminlist .member-item .info span { float: left; display: block; max-width: 54px; margin-right: 10px; white-space: nowrap; overflow: hidden; }
+
+/*发帖\关注按钮*/
+.h2o-post-btn, .favorite-btn {
+    display: inline-block;
+    background-color: #4fc277;
+    width: 123px;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #fff !important;
+    text-align: center;
+    vertical-align: middle;
+	
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.favorite-btn {
+    background-color: #1499f8;
+}
+.h2o-post-btn:hover, .favorite-btn:hover { opacity: 0.8; }
+
+/*帖子内容页头部*/
+.h2o_ad_vtitle {
+    width: 768px;
+    padding: 25px 20px 0;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    bottom: 10px;
+}
+.h2o_ad_vtitle a { color: #454545; font-size: 22px; font-weight: 400; }
+.h2o_ad_vtitle .colorlink { background: #1499f8; line-height: 20px; margin-right: 10px; padding: 3px 8px; font-size: 15px; color: #fff;  }
+.h2o_ad_vtitle em { background: #ef6935; padding: 2px 8px; border-radius: 2px; line-height: 20px; font-size: 12px; color: #fff; font-weight: 400; vertical-align: middle; }
+.h2o_ad_vtitle em.h2o_ad_vtitle_ico2 { background: #52C27A; }
+.h2o_ad_vtitle em.h2o_ad_vtitle_ico3 { background: #2BA6E5; }
+.h2o_ad_vtitle em.h2o_ad_vtitle_ico4 { background: #f35b4f; }
+.manage_group2 { position: absolute; width: 78px; height: 38px; line-height: 38px; right: 0; bottom: -2px; margin: -2px 0 0 -1px; border-top: 2px solid #444; font-size: 18px; color: #444; list-style: none; text-align: center; }
+.manage_group2 a { display: block;	width: 78px; height: 38px; background-color: #fff; }
+.manage_group2.hover a:hover, .h2o_ad-g-ban .manage_group2.hover a  { background-color: rgba(0,0,0,0.8); color: #FFD700 !important;}
+
+.h2o-circle-info .authortitle { display: block; padding: 0px 20px; font-size: 13px; color: #999; text-align: center; }
+.h2o-circle-info .circle-data .tns { padding: 0; }
+.h2o-circle-info .circle-data p, .h2o-circle-info .circle-data dl { display: none; }
+.h2o-circle-info .circle-data .tns p { display: block !important }
+
+.h2o-viem-author { background: #FFF; text-align: center; padding: 42px 0 0; }
+.h2o-viem-author .avatar img { width: 80px; height: 80px; border-radius: 50%; margin-bottom: 10px;}
+.h2o-viem-author .authi { font-size: 18px;}
+.h2o-viem-author .authortitle { color: #999;}
+.h2o-viem-author .tns { padding: 20px 12px 10px;}
+.h2o-viem-author .tns .xi2 { font-size: 12px; color: #B0A8A8;}
+.h2o-viem-author .cp_pls a { display: inline-block; float: inherit;}
+.h2o-viem-author p, .h2o-viem-author .pil { display: none;}
+.h2o-viem-author p.md_ctrl, .h2o-viem-author .tns p { display: block;}
+.h2o-viem-author p.md_ctrl { padding: 10px 15px 5px;}
+.h2o-viem-author p.md_ctrl img { margin: 0 5px 10px;}
+
+.h2o-adminlist li {
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #ddd;
+}
+.h2o-adminlist li:last-child {
+    border-bottom: 0;
+}
+.h2o-pic-content {
+    width: 270px;
+    height: 150px;
+    overflow: hidden;
+}
+.h2o-adminlist li img { width: 270px; height: 150px; -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    overflow: hidden; }
+
+.h2o-adminlist li:hover img {
+    transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+}
+
+.h2o-adminlist p { display: block; margin: 10px 0; font-size: 16px; color: #000; }
+.h2o-adminlist p:hover { color: #1499f8; }
+.h2o-adminlist p.des { font-size: 12px; color: #999; }
+
+.viem_position_sec {
+    height: 30px;
+    margin-bottom: 15px;
+    padding: 15px 0 0;
+    border-bottom: 1px dashed #ddd;
+}
+
+.reply_title {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #E7E8EB;
+    
+    overflow: hidden;
+    
+}
+.reply_title .reply_nav {
+    font-size: 18px;
+    color: #8c8c8c;
+    line-height: 18px;
+}
+.reply_title .reply_nav a.current {
+    font-size: 18px;
+    color: #1499f8;
+}
+.reply_title .reply_nav a {
+    color: #8c8c8c;
+    font-size: 14px;
+}
+.nonstop {
+    display: inline-block;
+    float: right;
+    height: 20px;
+    font-size: 12px;
+    color: #8c8c8c;
+}
+.nonstop a {
+    color: #8c8c8c;
+}
+.reply_title #fj label, .reply_title #fj input {
+    margin-right: 4px;
+    padding: 0;
+    height: 16px;
+    line-height: 18px;
+}
+.reply_title #fj input {
+    width: 40px !important;}
+.vwthdtit .firstauthi, .vwthdtit .firstauthi a {
+    color: #999;
+}
+.reply_title a.go_black {
+    display: block;
+    font-size: 16px;
+    color: #1499f8;
+    text-align: center;
+}
